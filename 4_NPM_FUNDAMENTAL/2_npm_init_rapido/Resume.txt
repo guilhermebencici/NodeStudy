@@ -1,0 +1,7 @@
+Para iniciaizar o npm de forma rapida, basta digitarmos: npm init -y
+
+o npm é o principal gerenciador de pacotes do Node.js
+
+Para iniciar um projeto: npm init ( de forma mais rapida: npm init -y)
+
+Para instalar um pacote: npm install <nomePacote> ( exemplo:npm install express
