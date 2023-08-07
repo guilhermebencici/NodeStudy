@@ -1,0 +1,5 @@
+É possivel desenvolver scripts parar criar rotinas com o NPM.
+
+Comando: npm run <script>
+
+Para rodar o scrit dentro do start não é necessário utilizar o "run", qualquer outro, é preciso!
