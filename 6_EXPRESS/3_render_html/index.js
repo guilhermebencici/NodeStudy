@@ -1,0 +1,26 @@
+//CHAMANDO O FRAMEWORK
+const express = require("express")
+
+// EXECUTANDO O EXPRESS
+const app = express()
+
+// VARIÁVEL DE AMBIENTE
+const port = 3000
+
+// CHAMANDO O PATH
+const path = require("path")
+
+// UTILIZANDO PARA CHAMAR A PASTA
+const basePath = path.join(__dirname, 'templates')
+
+// CRIANDO ROTA
+app.get('/', (req, resp) =>{
+
+    resp.sendFile(`${basePath}/index.html`)
+
+})
+
+// A função app.listen() do Express inicia um socket UNIX e escuta as conexões em um caminho fornecido.
+app.listen(port, () => {
+    console.log(`App rodando na porta ${port}`)
+})
